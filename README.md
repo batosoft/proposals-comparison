@@ -1,5 +1,3 @@
-Here's an impressive and well-structured README for your project on GitHub:
-
 ---
 
 # 🚀 **RFP Proposal Comparison App Using Generative AI**
