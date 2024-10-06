@@ -39,38 +39,41 @@ def generate_pdf(proposal1_text, proposal2_text, comparison, recommendation, cri
     pdf = FPDF()
     pdf.add_page()
     
+    # Register an Arabic font (make sure you have the TTF file)
+    pdf.add_font('DejaVu', '', 'path/to/DejaVuSans.ttf', uni=True)
+    pdf.set_font('DejaVu', '', 12)
+
     # Set title
-    pdf.set_font("Arial", 'B', 16)
     pdf.cell(200, 10, txt="تقرير مقارنة المقترحات", ln=True, align='C')
     
     # Add Criteria
-    pdf.set_font("Arial", 'B', 12)
+    pdf.set_font("DejaVu", 'B', 12)
     pdf.cell(200, 10, txt=f"المعايير: {criteria}", ln=True, align='L')
     
     # Add Proposal 1 and Proposal 2
-    pdf.set_font("Arial", 'B', 12)
+    pdf.set_font("DejaVu", 'B', 12)
     pdf.cell(200, 10, txt="المقترح 1:", ln=True)
-    pdf.set_font("Arial", '', 12)
-    pdf.multi_cell(200, 10, txt=proposal1_text)
+    pdf.set_font("DejaVu", '', 12)
+    pdf.multi_cell(0, 10, txt=proposal1_text)
     
-    pdf.set_font("Arial", 'B', 12)
+    pdf.set_font("DejaVu", 'B', 12)
     pdf.cell(200, 10, txt="المقترح 2:", ln=True)
-    pdf.set_font("Arial", '', 12)
-    pdf.multi_cell(200, 10, txt=proposal2_text)
+    pdf.set_font("DejaVu", '', 12)
+    pdf.multi_cell(0, 10, txt=proposal2_text)
     
     # Add Comparison and Recommendation
-    pdf.set_font("Arial", 'B', 12)
+    pdf.set_font("DejaVu", 'B', 12)
     pdf.cell(200, 10, txt="المقارنة:", ln=True)
-    pdf.set_font("Arial", '', 12)
-    pdf.multi_cell(200, 10, txt=comparison)
+    pdf.set_font("DejaVu", '', 12)
+    pdf.multi_cell(0, 10, txt=comparison)
     
-    pdf.set_font("Arial", 'B', 12)
+    pdf.set_font("DejaVu", 'B', 12)
     pdf.cell(200, 10, txt="التوصية:", ln=True)
-    pdf.set_font("Arial", '', 12)
-    pdf.multi_cell(200, 10, txt=recommendation)
+    pdf.set_font("DejaVu", '', 12)
+    pdf.multi_cell(0, 10, txt=recommendation)
     
     # Save the PDF
-    pdf_output_path = "data/proposal_comparison_report.pdf"
+    pdf_output_path = "data/proposal_comparison_report_ar.pdf"
     pdf.output(pdf_output_path)
     
     return pdf_output_path
