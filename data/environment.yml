@@ -1,0 +1,13 @@
+name: proposal-comparison-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - pypdf2
+  - fpdf
+  - pip
+  - pip:
+      - gradio
+      - transformers
