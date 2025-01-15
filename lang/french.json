@@ -1,0 +1,11 @@
+{
+    "title": "Outil de comparaison des propositions RFP avec l'IA",
+    "rfp_label": "Télécharger le RFP (PDF)",
+    "proposals_label": "Télécharger les propositions (PDF)",
+    "criteria_label": "Critères de comparaison",
+    "compare_btn": "Comparer les propositions",
+    "download_btn": "Télécharger le rapport PDF",
+    "comparison_label": "Résultats de la comparaison",
+    "recommendation_label": "Recommandation",
+    "download_link_label": "Télécharger le rapport"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Generative AI RFP Proposal Comparison Tool",
+    "rfp_label": "Upload RFP (PDF)",
+    "proposals_label": "Upload Proposals (PDF)",
+    "criteria_label": "Comparison Criteria",
+    "compare_btn": "Compare Proposals",
+    "download_btn": "Download PDF Report",
+    "comparison_label": "Comparison Results",
+    "recommendation_label": "Recommendation",
+    "download_link_label": "Download Report"
+}

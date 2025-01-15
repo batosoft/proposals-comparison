@@ -1,0 +1,11 @@
+{
+    "title": "Herramienta de comparación de propuestas RFP con IA",
+    "rfp_label": "Subir RFP (PDF)",
+    "proposals_label": "Subir propuestas (PDF)",
+    "criteria_label": "Criterios de comparación",
+    "compare_btn": "Comparar propuestas",
+    "download_btn": "Descargar informe PDF",
+    "comparison_label": "Resultados de la comparación",
+    "recommendation_label": "Recomendación",
+    "download_link_label": "Descargar informe"
+}

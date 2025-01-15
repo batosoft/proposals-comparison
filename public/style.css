@@ -1,0 +1,15 @@
+/* Default LTR layout */
+body {
+    direction: ltr;
+}
+
+/* RTL layout */
+body.rtl {
+    direction: rtl;
+}
+
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+}

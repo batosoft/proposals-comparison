@@ -1,0 +1,6 @@
+gradio
+PyMuPDF
+spacy
+nltk
+transformers
+FPDF
