@@ -8,6 +8,9 @@ This project is a cutting-edge **Generative AI-powered** application that stream
 
 The app is designed to save time, improve decision-making accuracy, and provide an intuitive experience for users. With features like uploading proposal PDFs, generating comparison reports, and downloading results as PDFs, the application brings the power of AI into the business workflow.
 
+Hagging Face Space:
+https://huggingface.co/spaces/batosoft/proposals-comparison
+
 ---
 
 ## 🎯 **Key Features**
